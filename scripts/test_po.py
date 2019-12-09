@@ -4,7 +4,7 @@ import pytest
 
 class TestContent:
     @allure.severity(allure.severity_level.BLOCKER)
-    @allure.step(title="登录测试脚本")
+    @allure.step(title="登录测试脚本1")
     def test_login(self):
         allure.attach("输入用户名","输入用户名的描述")
         print("输入用户名")
